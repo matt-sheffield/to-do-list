@@ -1,0 +1,46 @@
+body {
+    background-color: #efefef;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.to-do-container {
+    max-width: fit-content;
+    margin: auto;
+}
+
+form button {
+    display: inline;
+    background-color: royalblue;
+    color: #ffffff;
+    padding: 1px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    min-height: 38px;
+}
+
+form input {
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    min-height: 40px;
+    padding-left: 5px;
+}
+
+ul {
+    padding-left: 5px;
+    margin-top: 20px;
+}
+
+ul li {
+    list-style-type: none;
+}
